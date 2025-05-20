@@ -6,16 +6,16 @@ pontuaçao = float(input('informe a pontuaçao obtida pela performace'))
 
 #3. Exibe a classificação do nível de inteligência com base nessa pontuação
 
-if 0 <= consumo_medio <= 39.9 :
+if 0 <= pontuaçao <= 39.9 :
     print(f'Informamos que {nome_IA}, é uma IA em Treinamento 🍼')
 
-elif  40.0 <= consumo_medio <= 69.9 :
+elif  40.0 <= pontuaçao <= 69.9 :
     print(f'Informamos que {nome_IA}, é uma IA Intermediária 🧠')
 
-elif 70.0  <= consumo_medio <= 89.9 :
+elif 70.0  <= pontuaçao <= 89.9 :
     print(f'Informamos que {nome_IA}, IA Otimizada 🚀')
 
-elif 90.0 <= consumo_medio <= 100.0 :
+elif 90.0 <= pontuaçao <= 100.0 :
     print(f'Informamos que {nome_IA}, é uma IA Avançada (nível Skynet) 🤯')
 
 elif pontuaçao > 100 :
